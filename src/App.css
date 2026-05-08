@@ -153,17 +153,6 @@ th {
 }
 
 /* Owner */
-.owner-image {
-  width: 200px;
-  height: 200px;
-  background-color: #d4d4d4;
-  border: 1px solid #999;
-  margin: 20px auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .bio {
   max-width: 700px;
   margin: 20px auto;
@@ -178,4 +167,19 @@ th {
   font-size: 14px;
   line-height: 1.6;
   color: #333;
+}
+
+.owner-image {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #999;
+}
+
+.owner-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
